@@ -1,0 +1,6 @@
+echo "## My-guess-game project in The Unix Workbench course assignment" > README.md
+echo "*by Ramez Albokaee*" >> README.md
+echo -n "\n**Make date**: " >> README.md
+date >> README.md
+echo -n "\n**The number of lines of code contained in guessinggame.sh:** " >> README.md
+grep -c '' guessinggame.sh >> README.md
